@@ -13,3 +13,6 @@ where latitude and longitude are the same as you provided in the query. The scri
 For method (2) to work you need to have gmplot installed in your python environtment. If you don't have it, install it through the command line like so:
 pip install gmplot 
 (also appears in requirements.txt)
+
+# More about our project:
+See the .pptx file
