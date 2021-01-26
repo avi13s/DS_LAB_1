@@ -17,6 +17,8 @@ For method (2) to work you need to have gmplot installed in your python environt
 pip install gmplot 
 (also appears in requirements.txt)
 
+As for the training of the model from streaming, and storing training data - it's all in the notebook called "Project_Stream_prep_train_n_store.ipynb"
+
 # More about our project:
 For better visualizations see the .pptx file instead (this is a copy paste from it)
 
