@@ -1,5 +1,4 @@
-# DS_LAB_1
-Instructions:
+# Instructions:
 
 In the Project folder open the app.ipynb notebook in databricks environment.
 In the notebook you will see input boxes where you can enter you query. The Longitude and Latitude boxes define the center of
