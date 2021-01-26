@@ -1,4 +1,5 @@
 # January 2021 - Data Gathering Lab Project
+Creators - Maxim Matyash 318828761 | Avi Simkin 312485816
 
 # Instructions:
 
