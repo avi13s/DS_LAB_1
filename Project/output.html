@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 13,
+            center: new google.maps.LatLng(53.352632, -6.261582)
+        });
+
+        new google.maps.visualization.HeatmapLayer({
+            threshold: 10,
+            radius: 10,
+            maxIntensity: 1,
+            opacity: 0.600000,
+            dissipating: true,
+            map: map,
+            data: [
+                {location: new google.maps.LatLng(53.345401, -6.274651), weight: 2.067318},
+                {location: new google.maps.LatLng(53.362470, -6.272585), weight: 2.042859},
+                {location: new google.maps.LatLng(53.344124, -6.249561), weight: 2.038445},
+                {location: new google.maps.LatLng(53.339269, -6.255489), weight: 2.032694},
+                {location: new google.maps.LatLng(53.353307, -6.275879), weight: 1.981065},
+                {location: new google.maps.LatLng(53.353076, -6.275861), weight: 1.977300},
+                {location: new google.maps.LatLng(53.343099, -6.272212), weight: 1.976202},
+                {location: new google.maps.LatLng(53.341829, -6.252371), weight: 1.964922},
+                {location: new google.maps.LatLng(53.348897, -6.274700), weight: 1.887854},
+                {location: new google.maps.LatLng(53.360668, -6.272432), weight: 1.868769},
+                {location: new google.maps.LatLng(53.363842, -6.268443), weight: 1.819091},
+                {location: new google.maps.LatLng(53.345421, -6.272505), weight: 1.811558},
+                {location: new google.maps.LatLng(53.340394, -6.257143), weight: 1.801812},
+                {location: new google.maps.LatLng(53.364627, -6.256881), weight: 1.783134},
+                {location: new google.maps.LatLng(53.356512, -6.273823), weight: 1.777370},
+                {location: new google.maps.LatLng(53.340501, -6.265559), weight: 1.767017},
+                {location: new google.maps.LatLng(53.341849, -6.255004), weight: 1.748275},
+                {location: new google.maps.LatLng(53.354219, -6.274064), weight: 1.741555},
+                {location: new google.maps.LatLng(53.352492, -6.249032), weight: 1.737159},
+                {location: new google.maps.LatLng(53.358613, -6.271581), weight: 1.612596},
+                {location: new google.maps.LatLng(53.360310, -6.270022), weight: 1.579287},
+                {location: new google.maps.LatLng(53.345572, -6.269829), weight: 1.502564},
+                {location: new google.maps.LatLng(53.354612, -6.272204), weight: 1.495431},
+                {location: new google.maps.LatLng(53.344044, -6.267952), weight: 1.479993},
+                {location: new google.maps.LatLng(53.342459, -6.264540), weight: 1.466357},
+                {location: new google.maps.LatLng(53.361965, -6.266487), weight: 1.459273},
+                {location: new google.maps.LatLng(53.349832, -6.271646), weight: 1.445880},
+                {location: new google.maps.LatLng(53.348165, -6.252155), weight: 1.443900},
+                {location: new google.maps.LatLng(53.345542, -6.254128), weight: 1.423863},
+                {location: new google.maps.LatLng(53.362205, -6.259043), weight: 1.370798},
+                {location: new google.maps.LatLng(53.349915, -6.252510), weight: 1.310784},
+                {location: new google.maps.LatLng(53.345726, -6.268007), weight: 1.305563},
+                {location: new google.maps.LatLng(53.344188, -6.265690), weight: 1.299743},
+                {location: new google.maps.LatLng(53.343965, -6.263720), weight: 1.235478},
+                {location: new google.maps.LatLng(53.357758, -6.268722), weight: 1.216600},
+                {location: new google.maps.LatLng(53.344138, -6.259469), weight: 1.211446},
+                {location: new google.maps.LatLng(53.344321, -6.261223), weight: 1.151444},
+                {location: new google.maps.LatLng(53.345866, -6.265874), weight: 1.108947},
+                {location: new google.maps.LatLng(53.360467, -6.261272), weight: 1.085235},
+                {location: new google.maps.LatLng(53.351809, -6.254069), weight: 1.046133},
+                {location: new google.maps.LatLng(53.356446, -6.267942), weight: 1.026396},
+                {location: new google.maps.LatLng(53.345884, -6.258877), weight: 1.006220},
+                {location: new google.maps.LatLng(53.358092, -6.265741), weight: 0.950002},
+                {location: new google.maps.LatLng(53.352701, -6.268373), weight: 0.940044},
+                {location: new google.maps.LatLng(53.354705, -6.267996), weight: 0.932937},
+                {location: new google.maps.LatLng(53.346496, -6.261259), weight: 0.850474},
+                {location: new google.maps.LatLng(53.349623, -6.256811), weight: 0.780726},
+                {location: new google.maps.LatLng(53.347696, -6.259246), weight: 0.755782},
+                {location: new google.maps.LatLng(53.357824, -6.263056), weight: 0.747054},
+                {location: new google.maps.LatLng(53.356136, -6.265464), weight: 0.723826},
+                {location: new google.maps.LatLng(53.356803, -6.258531), weight: 0.715277},
+                {location: new google.maps.LatLng(53.354077, -6.257134), weight: 0.647262},
+                {location: new google.maps.LatLng(53.353946, -6.266014), weight: 0.639845},
+                {location: new google.maps.LatLng(53.353054, -6.264812), weight: 0.450912},
+                {location: new google.maps.LatLng(53.353638, -6.259341), weight: 0.340061},
+                {location: new google.maps.LatLng(53.354339, -6.263289), weight: 0.334150},
+                {location: new google.maps.LatLng(53.352445, -6.263758), weight: 0.302229},
+                {location: new google.maps.LatLng(53.353446, -6.262169), weight: 0.138936},
+                {location: new google.maps.LatLng(53.352006, -6.261270), weight: 0.096871},
+            ]
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
