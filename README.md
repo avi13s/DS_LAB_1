@@ -12,4 +12,5 @@ Then run the script like so: python visualize.py <name of the downloaded csv fil
 where latitude and longitude are the same as you provided in the query. The script will open a new window in your browser where you will see the heatmap.
 
 For method (2) to work you need to have gmplot installed in your python environtment. If you don't have it, install it through the command line like so:
-pip install gmplot
+pip install gmplot 
+(also appears in requirements.txt)
