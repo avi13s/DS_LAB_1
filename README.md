@@ -18,6 +18,7 @@ pip install gmplot
 (also appears in requirements.txt)
 
 As for the training of the model from streaming, and storing training data - it's all in the notebook called "Project_Stream_prep_train_n_store.ipynb"
+note that to run that notebook properly, one should delete code lines related to ElasticSearch or put them in a comment
 
 # More about our project:
 For better visualizations see the .pptx file instead (this is a copy paste from it)
